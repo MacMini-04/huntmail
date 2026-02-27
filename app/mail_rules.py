@@ -1,9 +1,8 @@
 # app/mail_rules.py
 from typing import List, Dict, Any
 
-from .ollama_client import classify_emails
-from .mail_client import get_inbox_emails, move_email_to_mailbox, MailClientError
-from .ollama_client import OllamaError
+from ollama_client import classify_emails, OllamaError
+from mail_client import get_inbox_emails, move_email_to_mailbox, MailClientError
 
 
 def fetch_and_classify(limit: int = 20) -> Dict[str, Dict[str, str]]:
