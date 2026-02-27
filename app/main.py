@@ -1,8 +1,8 @@
 # app/main.py
 import streamlit as st
 
-from .mail_rules import fetch_and_classify
-from .mail_client import get_inbox_emails
+from mail_rules import fetch_and_classify
+from mail_client import get_inbox_emails
 
 
 def main():
