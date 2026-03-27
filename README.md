@@ -15,7 +15,7 @@ ollama serve
 ## Setup
 
 ```bash
-git clone https://github.com/your-org/mailscan.git
+git clone https://github.com/MacMini-04/huntmail.git
 cd mailscan
 cp .env.example .env
 # Edit .env with your IMAP credentials
